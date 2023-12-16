@@ -14,7 +14,7 @@ data=$( jq -n --arg text "${text}" '{ "prompt": { "text": $text } }' )
 
 # runners
 
-resp=$( bash ./post.sh "models/text-bison-001:${path}" "a" "${data}" )
+resp=$( bash ./post.sh "models/text-bison-001:${path}" "${data}" )
 
 # outputs
 

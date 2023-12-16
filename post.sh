@@ -2,6 +2,6 @@
 
 . .env
 
-curl -sL -d "${3}" \
+curl -sL -d "${2}" \
   -H "Content-Type: application/json" \
-  "https://generativelanguage.googleapis.com/v1beta3/${1}?key=${API_KEY}&${2}"
+  "https://generativelanguage.googleapis.com/v1beta3/${1}?key=${API_KEY}"
