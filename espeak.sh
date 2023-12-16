@@ -1,7 +1,5 @@
 #!/usr/bin/sh
 
-setence="${1}"
+. datetime.sh
 
-filename="${2}"
-
-espeak -v pt-br "${setence}" -w "${filename}.wav"
+espeak -s 100-200 -f espeak.txt -w "${datetime}.wav"
