@@ -14,6 +14,8 @@ To get data from Google AI Studio API
 
 ```
 DATABASE=./data
+API_SECRET=
+API_KEY=
 ```
 
 ## license
